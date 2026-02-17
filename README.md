@@ -1,12 +1,46 @@
-# Reconhecimento_de_Padr-es2019
+# Cancer Transcriptome ML
 
-Diretório de execução do trabalho final de Reconhecimento de Padrões.
+Implementation of supervised machine learning models applied to cancer transcriptomic data.
 
-Trabalho de Revisão do Artigo "A machine learning classifier trained on cancer transcriptomes detects NF1 inactivation signal in glioblastoma"
+This project explores classification strategies inspired by the study:
 
-Alunos: Helena B Conceição e Rafael Mercuri
+"A machine learning classifier trained on cancer transcriptomes detects NF1 inactivation signal in glioblastoma"
 
-Todos os scripts devem ser executados fora da pasta script.
-Dados de expressão do TCGA e os dados de validação estão na pasta data.
-Usamos Rede Neural e SVM. A Rede Neural demora para executar.
+The goal was to reproduce and evaluate machine learning approaches for detecting molecular signatures in high-dimensional gene expression datasets.
+
+---
+
+## Methods Implemented
+
+- Principal Component Analysis (PCA)
+- Support Vector Machines (SVM)
+- Feedforward Neural Networks
+- Hyperparameter tuning
+- Balanced dataset evaluation
+
+---
+
+## Project Scope
+
+- Training and evaluation of classifiers on TCGA gene expression data
+- Dimensionality reduction using PCA
+- Performance comparison across models
+- Investigation of neural network training behavior
+
+---
+
+## Files
+
+- `PCA_code.py` – Principal Component Analysis implementation
+- `PCA_balanced.py` – PCA with balanced dataset strategy
+- `SVM.py` – Support Vector Machine classifier
+- `neural_network.py` – Feedforward neural network implementation
+- `find_hyperparameters.py` – Model tuning utilities
+
+---
+
+## Notes
+
+This project was originally developed as part of an advanced pattern recognition course and reflects an early implementation of supervised learning methods in transcriptomic data analysis.
+
 
